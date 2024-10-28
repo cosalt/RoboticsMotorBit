@@ -30,7 +30,7 @@ def on_forever2():
     if Distance <= 10 and Distance != 0:
         # Move forward
         motorbit.freestyle(motor_speed, 0)
-        basic.pause(Time)
+        basic.pause(525)
         # Move forward
         motorbit.freestyle(0, 0)
         basic.pause(Pause_time)
@@ -42,7 +42,7 @@ def on_forever2():
         basic.pause(Pause_time)
         # Move forward
         motorbit.freestyle(0, motor_speed)
-        basic.pause(Time)
+        basic.pause(525)
         # Move forward
         motorbit.freestyle(0, 0)
         basic.pause(Pause_time)
@@ -54,7 +54,19 @@ def on_forever2():
         basic.pause(Pause_time)
         # Move forward
         motorbit.freestyle(0, motor_speed)
+        basic.pause(525)
+        # Move forward
+        motorbit.freestyle(0, 0)
+        basic.pause(Pause_time)
+        # Move forward
+        motorbit.freestyle(motor_speed, motor_speed)
         basic.pause(Time)
+        # Move forward
+        motorbit.freestyle(0, 0)
+        basic.pause(Pause_time)
+        # Move forward
+        motorbit.freestyle(motor_speed, 0)
+        basic.pause(525)
         # Move forward
         motorbit.freestyle(0, 0)
         basic.pause(Pause_time)

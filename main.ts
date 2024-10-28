@@ -29,7 +29,7 @@ basic.forever(function () {
     if (Distance <= 10 && Distance != 0) {
         // Move forward
         motorbit.freestyle(motor_speed, 0)
-        basic.pause(Time)
+        basic.pause(550)
         // Move forward
         motorbit.freestyle(0, 0)
         basic.pause(Pause_time)
@@ -41,7 +41,7 @@ basic.forever(function () {
         basic.pause(Pause_time)
         // Move forward
         motorbit.freestyle(0, motor_speed)
-        basic.pause(Time)
+        basic.pause(550)
         // Move forward
         motorbit.freestyle(0, 0)
         basic.pause(Pause_time)
@@ -53,7 +53,13 @@ basic.forever(function () {
         basic.pause(Pause_time)
         // Move forward
         motorbit.freestyle(0, motor_speed)
-        basic.pause(Time)
+        basic.pause(550)
+        // Move forward
+        motorbit.freestyle(0, 0)
+        basic.pause(Pause_time)
+        // Move forward
+        motorbit.freestyle(motor_speed, 0)
+        basic.pause(550)
         // Move forward
         motorbit.freestyle(0, 0)
         basic.pause(Pause_time)

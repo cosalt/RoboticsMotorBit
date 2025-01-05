@@ -1,4 +1,4 @@
-
+# Competition complete - 3rd place for maze solving and 2nd place overall!!
 > Open this page at [https://cosalt.github.io/roboticsmotorbit/](https://cosalt.github.io/roboticsmotorbit/)
 
 ## Use as Extension
